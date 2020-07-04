@@ -10,6 +10,13 @@
     margin: 0;
 }
 
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-height: 45px;
+}
+
 li {
     display: inline-block;
     float: left;
@@ -25,6 +32,10 @@ a {
 a:hover {
     color: #44721e;
     text-decoration: none;
+}
+
+.col-md-6 {
+    padding: 0;
 }
 
 .banner {
