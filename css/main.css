@@ -51,6 +51,7 @@ a:hover {
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 100vh;
+    width: 100vw;
 }
 
 .title {
@@ -64,4 +65,32 @@ a:hover {
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 20px;
+}
+
+.icon {
+    max-width: 40px;
+}
+
+#benefits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.benefitTitle {
+    text-align: center;
+    color: #609b31;
+    font-family: 'Bitter';
+    font-weight: 700;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.benefitDescription {
+    text-align: center;
+    color: #2c2c2c;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    padding: 0px 30px 0px 30px;
 }
