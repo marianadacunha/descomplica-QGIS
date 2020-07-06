@@ -142,12 +142,3 @@ a:hover {
 .italics {
     font-style: italic;
 }
-
-.carouselSubtitle {
-    text-align: center;
-    color: #858585;
-    font-family: 'Montserrat';
-    font-size: 16px;
-    margin-top: -10px;
-    margin-bottom: 30px;
-}
