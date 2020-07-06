@@ -43,5 +43,25 @@ a:hover {
 }
 
 #firstBanner {
-    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../img/banner.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.title {
+    color: #ffffff;
+    font-family: 'Bitter';
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #9AD476;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
 }
