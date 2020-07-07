@@ -81,7 +81,7 @@ a:hover {
     max-width: 40px;
 }
 
-#benefits {
+.benefits {
     display: flex;
     align-items: center;
     justify-content: center;
