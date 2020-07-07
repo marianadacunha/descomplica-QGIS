@@ -172,6 +172,14 @@ a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 40px;
-    margin-top: 20px;
+    padding: 0px 80px 0px 80px;
+    margin: 20px 0px 40px 0px;
+}
+
+.bonusTitle {
+    margin-bottom: 30px;
+}
+
+.benefitDescription {
+    max-width: 30vw;
 }
