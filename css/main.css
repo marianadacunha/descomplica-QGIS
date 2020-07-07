@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-    color: #44721e;
+    color: #395e1b;
     text-decoration: none;
 }
 
@@ -108,7 +108,7 @@ a:hover {
 }
 
 #mapsText, #map, #instructor, #instructorBio {
-    background-color: rgb(243, 243, 243);
+    background-color: #f3f3f3;
     padding: 40px 30px 40px 30px;
 }
 
@@ -117,7 +117,7 @@ a:hover {
     padding: 20px;
 }
 
-.mapsTitle, .carouselTitle, #iconsTitle, .bonusTitle, .instructorTitle {
+.mapsTitle, .carouselTitle, #iconsTitle, .bonusTitle, .instructorTitle, .faqTitle {
     color: #395e1b;
     font-family: 'Bitter';
     font-weight: 700;
@@ -126,7 +126,7 @@ a:hover {
     padding: 20px;
 }
 
-.carouselTitle, .bonusTitle {
+.carouselTitle, .bonusTitle, .faqTitle {
     text-align: center;
     margin-top: 20px;
 }
@@ -195,4 +195,27 @@ a:hover {
     font-family: 'Montserrat';
     font-size: 14px;
     box-shadow: -4px -4px 40px #d1d1d1;
+}
+
+.faqText {
+    text-align: justify;
+    color: #2c2c2c;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+.faqQuestion {
+    color: #609b31;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.card {
+    border: none;
+}
+
+.card-header {
+    border: none;
+    background-color: #f3f3f3;
 }
