@@ -41,6 +41,11 @@ a:hover {
     padding: 0;
 }
 
+.navbar {
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 100px #000000;
+}
+
 .banner {
     width: 100vw;
 }
@@ -56,6 +61,7 @@ a:hover {
     width: 100vw;
     min-height: 60vh;
     box-shadow: 8px 8px 14px #969696;
+    margin-top: 80px;
 }
 
 .title {
