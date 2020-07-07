@@ -166,3 +166,12 @@ a:hover {
     font-weight: 400;
     font-size: 18px;
 }
+
+.bonuses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
