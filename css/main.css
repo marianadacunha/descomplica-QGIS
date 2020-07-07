@@ -112,7 +112,7 @@ a:hover {
     
 }
 
-.mapsTitle, .carouselTitle, #iconsTitle {
+.mapsTitle, .carouselTitle, #iconsTitle, .bonusTitle {
     color: #609b31;
     font-family: 'Bitter';
     font-weight: 700;
@@ -121,9 +121,17 @@ a:hover {
     padding: 20px;
 }
 
-.carouselTitle {
+.carouselTitle, .bonusTitle {
     text-align: center;
     margin-top: 20px;
+}
+
+.carousel-caption {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .mapDescription {
@@ -141,4 +149,20 @@ a:hover {
 
 .italics {
     font-style: italic;
+}
+
+.modulesTitle {
+    color: #FFFFFF;
+    font-family: 'Bitter';
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.modulesText {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
 }
