@@ -166,7 +166,7 @@ a:hover {
     padding: 20px;
 }
 
-.mapsTitle, .carouselTitle, #iconsTitle, .bonusTitle, .instructorTitle, .faqTitle, .contactTitle, .exampleTitle {
+.mapsTitle, .carouselTitle, #iconsTitle, .bonusTitle, .instructorTitle, .faqTitle, .contactTitle, .exampleTitle, .priceTitle {
     color: #395e1b;
     font-family: 'Bitter';
     font-weight: 700;
@@ -175,8 +175,34 @@ a:hover {
     padding: 20px;
 }
 
-.exampleTitle {
+.exampleTitle, .priceTitle {
     text-align: center;
+}
+
+.priceDescription {
+    color: #2c2c2c;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.promotion {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.payment {
+    max-width: 80px;
+    max-height: 35px;
+    padding: 0px 10px 0px 10px;
+}
+
+.paymentBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .exampleCaption {
