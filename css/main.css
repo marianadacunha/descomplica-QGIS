@@ -50,6 +50,50 @@ a:hover {
     width: 100vw;
 }
 
+.btn {
+    background-color: #609b31;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #395e1b;
+}
+
+#video-btn {
+    width: 76vw;
+    padding: 12px 0px 12px 0px;
+}
+
+#text-btn {
+    margin-left: 20px;
+}
+.video {
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+#video {
+    display: block;
+    margin: auto;
+    width: 1200px;
+    height: 800px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+  
+@media(max-width: 1000px) {
+    #video {
+        max-width: 90vw;
+    }
+}
+
 #firstBanner {
     display: flex;
     align-items: center;
@@ -148,7 +192,8 @@ a:hover {
     color: #2c2c2c;
     font-family: 'Montserrat';
     font-size: 16px;
-    padding: 20px;
+    padding-left: 20px;
+    margin: 0;
 }
 
 .instructorDescription {
