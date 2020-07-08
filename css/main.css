@@ -125,6 +125,11 @@ a:hover {
     max-width: 40px;
 }
 
+.description {
+    max-height: 100px;
+    margin: 0px 30px 0px 30px;
+}
+
 .benefits {
     display: flex;
     align-items: center;
@@ -161,13 +166,23 @@ a:hover {
     padding: 20px;
 }
 
-.mapsTitle, .carouselTitle, #iconsTitle, .bonusTitle, .instructorTitle, .faqTitle {
+.mapsTitle, .carouselTitle, #iconsTitle, .bonusTitle, .instructorTitle, .faqTitle, .contactTitle {
     color: #395e1b;
     font-family: 'Bitter';
     font-weight: 700;
     font-size: 28px;
     text-transform: uppercase;
     padding: 20px;
+}
+
+.contactTitle {
+    padding: 50px 60px 50px 60px;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.contact {
+    padding: 0;
 }
 
 .instructorTitle, .instructorDescription {
@@ -245,7 +260,7 @@ a:hover {
 
 .bonuses:hover {
     background-color: #e8f8de;
-    transition-duration: 1.5s;
+    transition-duration: 1s;
     margin: 0px;
 }
 
@@ -278,6 +293,10 @@ a:hover {
     font-family: 'Montserrat';
     font-weight: bolder;
     font-size: 18px;
+}
+
+.faqBox {
+    margin-bottom: 30px;
 }
 
 .card {
