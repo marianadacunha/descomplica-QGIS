@@ -71,7 +71,7 @@ a:hover {
     margin-left: 20px;
 }
 .video {
-    background-color: #f3f3f3;
+    /* background-color: #f3f3f3; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,7 +157,7 @@ a:hover {
 }
 
 #mapsText, #map, #instructor, #instructorBio {
-    background-color: #f3f3f3;
+    /* background-color: #f3f3f3; */
     padding: 40px 30px 40px 30px;
 }
 
@@ -166,13 +166,42 @@ a:hover {
     padding: 20px;
 }
 
-.mapsTitle, .carouselTitle, #iconsTitle, .bonusTitle, .instructorTitle, .faqTitle, .contactTitle {
+.mapsTitle, .carouselTitle, #iconsTitle, .bonusTitle, .instructorTitle, .faqTitle, .contactTitle, .exampleTitle {
     color: #395e1b;
     font-family: 'Bitter';
     font-weight: 700;
     font-size: 28px;
     text-transform: uppercase;
     padding: 20px;
+}
+
+.exampleTitle {
+    text-align: center;
+}
+
+.exampleCaption {
+    text-align: center;
+    color: #2c2c2c;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 19px;
+    padding: 22px;
+}
+
+.examples {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.example {
+    max-width: 400px;
+}
+
+.example:hover {
+    transform: scale(1.15);
+    transition: transform .4s;
 }
 
 .carousel {
@@ -195,7 +224,7 @@ a:hover {
 
 .contactTitle {
     padding: 50px 60px 50px 60px;
-    background-color: #f3f3f3;
+    /* background-color: #f3f3f3; */
     text-align: center;
 }
 
