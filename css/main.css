@@ -126,6 +126,10 @@ a:hover {
     padding: 20px;
 }
 
+.instructorTitle, .instructorDescription {
+    padding-left: 25px;
+}
+
 .carouselTitle, .bonusTitle, .faqTitle {
     text-align: center;
     margin-top: 20px;
@@ -139,12 +143,20 @@ a:hover {
     flex-direction: column;
 }
 
-.mapDescription, .instructorDescription {
+.mapDescription {
     text-align: justify;
     color: #2c2c2c;
     font-family: 'Montserrat';
     font-size: 16px;
     padding: 20px;
+}
+
+.instructorDescription {
+    text-align: justify;
+    color: #2c2c2c;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    padding-left: 25px;
 }
 
 .bold {
@@ -172,6 +184,11 @@ a:hover {
     font-size: 18px;
 }
 
+.photo {
+    max-width: 350px;
+    max-height: 350px;
+}
+
 .bonuses {
     display: flex;
     align-items: center;
@@ -179,6 +196,12 @@ a:hover {
     flex-direction: column;
     padding: 0px 80px 0px 80px;
     margin: 20px 0px 40px 0px;
+}
+
+.bonuses:hover {
+    background-color: #e8f8de;
+    transition-duration: 1.5s;
+    margin: 0px;
 }
 
 .bonusTitle {
@@ -205,6 +228,7 @@ a:hover {
 }
 
 .faqQuestion {
+    text-align: center;
     color: #609b31;
     font-family: 'Montserrat';
     font-weight: bolder;
@@ -218,4 +242,15 @@ a:hover {
 .card-header {
     border: none;
     background-color: #f3f3f3;
+    margin: 5px;
+}
+
+#instructorBio {
+    display: flex;
+    flex-direction: row;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
 }
