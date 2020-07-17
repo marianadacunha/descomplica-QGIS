@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href ="css/main.css">
     <link rel="shortcut icon" href ="img/favicon.png">
-    <title>Descomplica QGIS - Avançado</title>
+    <title>Descomplica QGIS</title>
 </head>
 
 <body>
@@ -14,13 +15,13 @@
         <div class="row headerLogo">
             <nav class="navbar navbar-expand-md fixed-top">
                 <div class="col-md-6">
-                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo do Descomplica QGIS" id="logo"></a>
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo do Descomplica QGIS" id="logoDescomplicaQGIS"></a>
                 </div>
             <div class="col-md-6">
               <ul class="navbar-nav mr-auto menu">
                 <li><a class="nav-item" href="#">Home</a></li>
-                <li><a class="nav-item" href="#carousel">Estrutura do Curso</a></li>
-                <li><a class="nav-item" href="#instructorBio">Instrutor</a></li>
+                <li><a class="nav-item" href="#estrutura">Estrutura do Curso</a></li>
+                <li><a class="nav-item" href="#instrutor">Instrutor</a></li>
                 <li><a class="nav-item" href="#faq">Perguntas Frequentes</a></li>
                 <li><a class="nav-item" href="#contact">Contato</a></li>
               </ul>
@@ -29,7 +30,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12" id="firstBanner">
+            <div class="col-md-12" id="bannerInicial">
                 <h1 class="title">DOMINE A FERRAMENTA Nº 1 DE PRODUÇÃO DE MAPAS</h1>
                 <h2 class="subtitle">APRENDA QGIS DE FORMA RÁPIDA, PRÁTICA E DESCOMPLICADA</h2>
                 <button type="button" class="btn btn-primary">QUERO ME INSCREVER</button>
@@ -38,7 +39,7 @@
 
         <div class="row">
             <div class="col-md-12 video">
-                <iframe id="video" src="https://www.youtube.com/embed/oQ3eYsEEmHo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="youtubePlayer" src="https://www.youtube.com/embed/oQ3eYsEEmHo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <button type="button" class="btn btn-primary" id="video-btn">QUERO ME INSCREVER</button>
                     <div class="row">
                         <div class="col-md-3 benefits">
@@ -59,7 +60,7 @@
 
         <div class="row">
             <div class="col-md-12" id="iconsTitle">
-                <h1 class="carouselTitle">Conheça os benefícios</h1>
+                <h1 class="defaultTitle">Conheça os benefícios</h1>
             </div>
         </div>
         <div class="row">
@@ -84,11 +85,11 @@
         </div>
 
         <div class="row">
-            <div class="col-md-6" id="map">
+            <div class="col-md-6" id="mapImage">
                 <img src="img/banner2.jpg" class="map">
             </div>
             <div class="col-md-6" id="mapsText">
-                <h1 class="mapsTitle">VOCÊ SE CONSIDERA INDEPENDENTE NA PRODUÇÃO DE MAPAS?</h1>
+                <h1 class="defaultTitle">VOCÊ SE CONSIDERA INDEPENDENTE NA PRODUÇÃO DE MAPAS?</h1>
                 <p class="mapDescription">
                     Imagine a seguinte situação:</br></br>
                     Você está participando de uma seleção para uma vaga de emprego. </br></br>
@@ -105,7 +106,7 @@
 
         <div class="row">
             <div class="col-md-12" id="iconsTitle">
-                <h1 class="exampleTitle">Você aprenderá o passo a passo para produzir (e muito mais):</h1>
+                <h1 class="defaultTitle">Você aprenderá o passo a passo para produzir (e muito mais):</h1>
             </div>
         </div>
         
@@ -140,8 +141,8 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12" id="carousel">
-                <h1 class="alunosTitle">Estrutura do Curso (Turma Avançada)</h1>
+            <div class="col-md-12" id="estrutura">
+                <h1 class="defaultTitle">Estrutura do Curso (Turma Avançada)</h1>
             </div>
         </div>
 
@@ -274,7 +275,7 @@
 
         <div class="row">
             <div class="col-md-12" id="bonus">
-                <h1 class="bonusTitle">Você também terá acesso aos seguintes bônus:</h1>
+                <h1 class="defaultTitle">Você também terá acesso aos seguintes bônus:</h1>
             </div>
         </div>
         <div class="row">
@@ -304,7 +305,7 @@
 
         <div class="row">
             <div class="col-md-12" id="alunos">
-                <h1 class="alunosTitle">Confira alguns mapas produzidos por nossos mais de 500 alunos:</h1>
+                <h1 class="defaultTitle">Confira alguns mapas produzidos por nossos mais de 500 alunos:</h1>
             </div>
         </div>
 
@@ -348,8 +349,8 @@
         </div>
         
           <div class="row">
-            <div class="col-md-12">
-                <h1 class="priceTitle">Valor Promocional</h1>
+            <div class="col-md-12" id="valor">
+                <h1 class="defaultTitle">Valor Promocional</h1>
             </div>
         </div>
 
@@ -379,11 +380,11 @@
         </div>
         
         <div class="row">
-            <div class="col-md-12 instructor" id="instructorBio">
+            <div class="col-md-12 instrutor" id="instrutor">
                 <img src="img/photo.jpg" class="photo">
                     <div class="bio">
-                        <h1 class="instructorTitle">INSTRUTOR</h1>
-                        <p class="instructorDescription">
+                        <h1 class="defaultTitle">INSTRUTOR</h1>
+                        <p class="descricaoInstrutor">
                             Olá, meu nome é Leonardo Marques, Engenheiro, Mestre, Empreendedor e Instrutor de Treinamentos na Área Ambiental
                             Como sócio-fundador da Ambientis Engenharia, uma empresa de consultoria ambiental, e doutorando em Saneamento Ambiental, trabalho diariamente produzindo mapas e realizando análises espaciais.
                             Este contato com o QGIS me proporcionou a combinação perfeita de experiência e prática neste programa.
@@ -398,7 +399,7 @@
 
         <div class="row">
             <div class="col-md-12 faq" id="faq">
-                <h1 class="faqTitle">Perguntas Frequentes</h1>
+                <h1 class="defaultTitle">Perguntas Frequentes</h1>
             </div>
         </div>
 
@@ -516,7 +517,9 @@
 
             <div class="row">
                 <div class="col-md-12 contact" id="contact">
-                    <h1 class="contactTitle">Ainda tem alguma dúvida? Fale diretamente conosco clicando no botão do WhatsApp ao lado ou através do email contato@descomplicaqgis.com.br.</h1>
+                    <a href="https://www.instagram.com/leomarques.eng/" class="fa fa-instagram"></a>
+                    <a href="https://www.youtube.com/c/descomplicaqgis" class="fa fa-youtube"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5511958688143" class="fa fa-whatsapp"></a>
                 </div>
             </div>
 
@@ -530,7 +533,6 @@
             </footer>
         </div>
     </div>
-
 
     </div>
 
