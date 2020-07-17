@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 
+/* Editando o menu */
 .menu {
     display: flex;
     flex-direction: row;
@@ -46,6 +47,8 @@ a:hover {
     box-shadow: 6px 6px 100px #000000;
 }
 
+/* Editando o primeiro banner */
+
 .banner {
     width: 100vw;
 }
@@ -58,9 +61,26 @@ a:hover {
     margin-top: 20px;
 }
 
+
 .btn:hover {
     background-color: #395e1b;
 }
+
+#firstBanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    min-height: 60vh;
+    box-shadow: 8px 8px 14px #969696;
+    margin-top: 80px;
+}
+
+/* Editando a seção de vídeo */
 
 #video-btn {
     width: 76vw;
@@ -71,15 +91,7 @@ a:hover {
     margin-left: 20px;
 }
 
-#payment-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
 .video {
-    /* background-color: #f3f3f3; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,20 +112,6 @@ a:hover {
     #video {
         max-width: 90vw;
     }
-}
-
-#firstBanner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-image: url("../img/banner.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    min-height: 60vh;
-    box-shadow: 8px 8px 14px #969696;
-    margin-top: 80px;
 }
 
 .title {
@@ -165,7 +163,6 @@ a:hover {
 }
 
 #mapsText, #map, #instructor, #instructorBio {
-    /* background-color: #f3f3f3; */
     padding: 40px 30px 40px 30px;
 }
 
@@ -174,7 +171,7 @@ a:hover {
     padding: 20px;
 }
 
-.mapsTitle, .carouselTitle, #iconsTitle, .bonusTitle, .instructorTitle, .faqTitle, .contactTitle, .exampleTitle, .priceTitle {
+.mapsTitle, .carouselTitle, #iconsTitle, .bonusTitle, .instructorTitle, .faqTitle, .contactTitle, .exampleTitle, .priceTitle, .alunosTitle {
     color: #395e1b;
     font-family: 'Bitter';
     font-weight: 700;
@@ -183,7 +180,7 @@ a:hover {
     padding: 20px;
 }
 
-.exampleTitle, .priceTitle {
+.exampleTitle, .priceTitle, .alunosTitle {
     text-align: center;
 }
 
@@ -238,7 +235,7 @@ a:hover {
     transition: transform .4s;
 }
 
-.carousel {
+#carouselExampleControls {
     background-image: url("../img/banner1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -258,7 +255,6 @@ a:hover {
 
 .contactTitle {
     padding: 50px 60px 50px 60px;
-    /* background-color: #f3f3f3; */
     text-align: center;
 }
 
@@ -401,3 +397,33 @@ a:hover {
     display: flex;
     flex-direction: column;
 }
+
+#payment-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+#carouselAlunos {
+    max-width: 50vw;
+}
+
+.carousel-control-prev, .carousel-control-next, .carousel-control-prev-icon, .carousel-control-next-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carouselBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+background-color: #f3f3f3;
