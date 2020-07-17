@@ -247,9 +247,14 @@ a:hover {
     background-image: url("../img/banner1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 95vw;
     min-height: 75vh;
     display: flex;
+    margin-bottom: 40px;
+}
+
+#carouselContent {
+    margin-bottom: 40px;
 }
 
 .carousel-item {
@@ -411,6 +416,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .carousel-item {
