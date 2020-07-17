@@ -364,14 +364,6 @@ a:hover {
     max-width: 30vw;
 }
 
-.footer {
-    text-align: center;
-    color: #2c2c2c;
-    font-family: 'Montserrat';
-    font-size: 14px;
-    box-shadow: -4px -4px 40px #d1d1d1;
-}
-
 .faqText {
     text-align: justify;
     color: #2c2c2c;
@@ -439,10 +431,27 @@ a:hover {
     justify-content: center;
 }
 
+.footer {
+    box-shadow: -4px -4px 40px #d1d1d1;
+}
+
+.footerText {
+    text-align: center;
+    color: #2c2c2c;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    padding-top: 30px;
+    margin: 0px;
+}
+
+footer {
+    text-align: center;
+}
+
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 60px;
+    padding: 10px 10px 25px 10px;
+    font-size: 25px;
+    width: 40px;
     text-align: center;
     text-decoration: none;
 }
