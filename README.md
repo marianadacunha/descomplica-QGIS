@@ -4,7 +4,7 @@ Repository for the code of the Descomplica QGIS website.</br>
 This page was designed to promote the Descomplica QGIS course and gather new students.</br>
 HTML, CSS and Bootstrap were used to write this code.
 
-### Preview
+# Preview
 
 You can see the live site clicking <a href="https://marianadacunha.github.io/descomplica-QGIS/">here</a>.</br>
 
