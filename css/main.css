@@ -5,54 +5,33 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Editando o menu */
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    list-style-type: none;
-    margin: 0;
+.container-fluid {
     padding: 0;
 }
 
-#logoDescomplicaQGIS {
+/* Editando o menu */
+
+nav {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    max-height: 45px;
+    justify-content: flex-end;
+    box-shadow: 6px 6px 100px #000000;
+    margin: 0;
+    width: 100vw;
 }
 
-li {
-    display: inline-block;
-    float: left;
-    padding: 20px;
-}
-
-a {
-    color: #609b31;
+.nav-item {
     font-family: 'Bitter';
     font-weight: 700;
-    font-size: 15px;
-    transition: 0.5s;
+    padding: 10px;
 }
 
-a:hover {
-    color: #395e1b;
-    text-decoration: none;
-    font-size: 16px;
-    transition: 0.5s;
-}
-
-.headerLogo {
+#navbarTogglerDemo01 {
     display: flex;
-    align-items: center;
-    vertical-align: middle;
-    padding: 0;
+    justify-content: flex-end;
 }
 
-.navbar {
-    background-color: #FFFFFF;
-    box-shadow: 6px 6px 100px #000000;
+.mr-auto, .mx-auto, ul {
+    margin-right: 0!important;
 }
 
 /* Editando o primeiro banner */
@@ -67,8 +46,8 @@ a:hover {
     font-family: 'Montserrat';
     font-weight: bolder;
     margin-top: 20px;
+    padding: 12px 15px 12px 15px;
 }
-
 
 .btn:hover {
     background-color: #395e1b;
@@ -85,13 +64,14 @@ a:hover {
     width: 100vw;
     min-height: 60vh;
     box-shadow: 8px 8px 14px #969696;
-    margin-top: 80px;
 }
 
 .title {
     color: #ffffff;
     font-family: 'Bitter';
     font-weight: 700;
+    width: 80vw;
+    text-align: center;
 }
 
 .subtitle {
@@ -99,6 +79,7 @@ a:hover {
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
 }
 
 /* Editando a seção de vídeo */
@@ -121,12 +102,9 @@ a:hover {
 }
 
 #youtubePlayer {
-    display: block;
-    margin: auto;
-    width: 1200px;
-    height: 800px;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    width: 72vw;
+    height: 48vh;
+    margin: 40px 0px 20px 0px;
 }
   
 @media(max-width: 1000px) {
@@ -136,15 +114,9 @@ a:hover {
 }
 
 .description {
-    max-height: 100px;
+    max-height: 90px;
     margin: 0px 30px 0px 30px;
 }
-
-.icon {
-    max-width: 40px;
-}
-
-/* Editando a seção de benefícios */
 
 .benefits {
     display: flex;
@@ -153,6 +125,13 @@ a:hover {
     flex-direction: column;
     margin-bottom: 40px;
     margin-top: 20px;
+    padding: 0px;
+}
+
+/* Editando a seção de benefícios */
+
+.icon {
+    width: 50px;
 }
 
 .benefitTitle {
